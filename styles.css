@@ -1,0 +1,94 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.hero-section {
+  height: 100vh;
+  color: black;
+  /*background: url('https://via.placeholder.com/1920x1080') center center/cover no-repeat;*/
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+}
+
+section {
+  padding: 60px 0;
+}
+
+#services .material-icons {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+footer {
+  background-color: #222;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+.bg-off-white {
+  background-color: #ffffff;
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#apps {
+  background-color: #ffffff;
+}
+
+.app-card {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+}
+
+.app-card:hover {
+  transform: translateY(-5px);
+}
+
+.app-card .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.app-card:hover .card {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.app-card .card-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.app-card .card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
