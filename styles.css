@@ -92,3 +92,16 @@ footer p {
   font-size: 0.9rem;
   color: #6c757d;
 }
+/* Remove outline and border from navbar-toggler */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
