@@ -105,3 +105,79 @@ footer p {
   box-shadow: none;
   border: none;
 }
+
+.privacy-container {
+  background-color: #f8f9fa;
+}
+
+.privacy-section {
+  font-weight: 300;
+}
+
+.policy-card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.policy-card:hover {
+  transform: translateY(-2px);
+}
+
+.policy-card h2 {
+  color: #333;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.policy-card h3 {
+  color: #555;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.subsection {
+  margin-bottom: 2rem;
+}
+
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.custom-list li:before {
+  content: "•";
+  color: #007bff;
+  position: absolute;
+  left: 0;
+}
+
+.contact-email {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.contact-email:hover {
+  color: #0056b3;
+}
+
+.display-4 {
+  font-weight: 400;
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
